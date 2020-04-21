@@ -48,8 +48,10 @@ void test_100()
 	//vector<int> v = l_144.preorderTraversal_tree2list1(p_1);
 	leetcode_145 l_145;
 	vector<int> v = l_145.postorderTraversal_iterator_deque(p_1);
+	vector<int> v1 = l_145.postorderTraversal_iterator(p_1);
 
 	print_vector(v);
+	print_vector(v1);
 
 	
 }
