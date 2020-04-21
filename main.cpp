@@ -49,10 +49,13 @@ void test_100()
 	leetcode_145 l_145;
 	vector<int> v = l_145.postorderTraversal_iterator_deque(p_1);
 	vector<int> v1 = l_145.postorderTraversal_iterator(p_1);
+	vector<int> v2 = l_145.postorderTraversal_iterator_list(p_1);
+	vector<int> v3 = l_145.postorderTraversal_recursion(p_1);
 
 	print_vector(v);
 	print_vector(v1);
-
+	print_vector(v2);
+	print_vector(v3);
 	
 }
 
