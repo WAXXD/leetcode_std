@@ -35,5 +35,8 @@
     <ClInclude Include="后序遍历_145.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="从前序和中序遍历序列构造二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

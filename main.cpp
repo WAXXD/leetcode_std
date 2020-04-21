@@ -39,23 +39,30 @@ void test_100()
 	p_2->right = p_5;
 	p_3->left = p_6;
 	p_3->right = p_7;
-	//p_4->left = p_8;
-	p_4->right = p_9;
-	p_5->left = p_10;
-	p_5->right = p_11;
+	p_4->left = p_8;
+	//p_4->right = p_9;
+	//p_5->left = p_10;
+	//p_5->right = p_11;
 
 	//leetcode_144 l_144;
 	//vector<int> v = l_144.preorderTraversal_tree2list1(p_1);
-	leetcode_145 l_145;
-	vector<int> v = l_145.postorderTraversal_iterator_deque(p_1);
-	vector<int> v1 = l_145.postorderTraversal_iterator(p_1);
-	vector<int> v2 = l_145.postorderTraversal_iterator_list(p_1);
-	vector<int> v3 = l_145.postorderTraversal_recursion(p_1);
 
-	print_vector(v);
+	//vector<int> v = l_145.postorderTraversal_iterator_deque(p_1);
+	//vector<int> v1 = l_145.postorderTraversal_iterator(p_1);
+	//vector<int> v2 = l_145.postorderTraversal_iterator_list(p_1);
+	//vector<int> v3 = l_145.postorderTraversal_recursion(p_1);
+	leetcode_94 l_94;
+	vector<int> v = l_94.inorderTraversal_iterator(p_1);
+	leetcode_144 l_144;
+	vector<int> v1 = l_144.preorderTraversal_iterator(p_1);
+	leetcode_145 l_145;
+	vector<int> v2 = l_145.postorderTraversal_iterator(p_1);
 	print_vector(v1);
+	print_vector(v);
 	print_vector(v2);
-	print_vector(v3);
+	//print_vector(v1);
+	//print_vector(v2);
+	//print_vector(v3);
 	
 }
 
