@@ -128,10 +128,12 @@
   <ItemGroup>
     <ClInclude Include="leetcode_100.h" />
     <ClInclude Include="leetcode_110.h" />
-    <ClInclude Include="从前序和中序遍历序列构造二叉树.h" />
+    <ClInclude Include="从中序和后序遍历序列构造二叉树_106.h" />
+    <ClInclude Include="从前序和中序遍历序列构造二叉树_105.h" />
     <ClInclude Include="前序遍历_144.h" />
     <ClInclude Include="中序遍历_94.h" />
     <ClInclude Include="后序遍历_145.h" />
+    <ClInclude Include="有序数组转二叉搜索树_108.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

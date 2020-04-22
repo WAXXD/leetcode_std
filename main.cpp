@@ -6,6 +6,7 @@
 #include "前序遍历_144.h"
 #include "中序遍历_94.h"
 #include "后序遍历_145.h"
+#include "从中序和后序遍历序列构造二叉树_106.h"
 #include <iostream>
 using namespace std;
 
@@ -39,7 +40,7 @@ void test_100()
 	p_2->right = p_5;
 	p_3->left = p_6;
 	p_3->right = p_7;
-	p_4->left = p_8;
+	//p_4->left = p_8;
 	//p_4->right = p_9;
 	//p_5->left = p_10;
 	//p_5->right = p_11;
@@ -63,6 +64,17 @@ void test_100()
 	//print_vector(v1);
 	//print_vector(v2);
 	//print_vector(v3);
+
+	leetcode_106 l_106;
+	vector<int> in = { 2,1 };
+	vector<int> post = { 2,1 };
+	TreeNode* root = l_106.buildTree(in, post);
+	vector<int> v3 = l_94.inorderTraversal_iterator(root);
+	vector<int> v4 = l_145.postorderTraversal_iterator(root);
+	print_vector(v3);
+	print_vector(v4);
+	cout << 5 / 2 << endl;
+
 	
 }
 

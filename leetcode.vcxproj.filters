@@ -35,7 +35,13 @@
     <ClInclude Include="后序遍历_145.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="从前序和中序遍历序列构造二叉树.h">
+    <ClInclude Include="从中序和后序遍历序列构造二叉树_106.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="从前序和中序遍历序列构造二叉树_105.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="有序数组转二叉搜索树_108.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
