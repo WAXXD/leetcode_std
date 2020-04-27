@@ -35,7 +35,7 @@ class leetcode_106 {
 public:
 	TreeNode* buildTree(std::vector<int>& inorder, std::vector<int>& postorder) {
 		std::unordered_map<int, int> map;
-		for (int i = 0; i < inorder.size(); i++) {
+		for (unsigned int i = 0; i < inorder.size(); i++) {
 			map.emplace(inorder[i], i);
 		}
 		TreeNode* root = build(inorder, 0, inorder.size() - 1, postorder, postorder.size() - 1, map);

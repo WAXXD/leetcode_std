@@ -128,6 +128,9 @@
   <ItemGroup>
     <ClInclude Include="leetcode_100.h" />
     <ClInclude Include="leetcode_110.h" />
+    <ClInclude Include="leetcode_112路径总和.h" />
+    <ClInclude Include="leetcode_114二叉树展开为链表.h" />
+    <ClInclude Include="leetcode_99恢复二叉搜索树.h" />
     <ClInclude Include="从中序和后序遍历序列构造二叉树_106.h" />
     <ClInclude Include="从前序和中序遍历序列构造二叉树_105.h" />
     <ClInclude Include="前序遍历_144.h" />

@@ -44,5 +44,14 @@
     <ClInclude Include="有序数组转二叉搜索树_108.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="leetcode_99恢复二叉搜索树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode_114二叉树展开为链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode_112路径总和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
